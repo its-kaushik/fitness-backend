@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const exercisesSchema = new mongoose.Schema({
     exerciseID: {
-        type: String,
+        type: Number,
     },
     name: {
         type: String,
